@@ -28,4 +28,11 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
+  .footer__menu__about:hover,
+  .footer__menu__services:hover,
+  .footer__menu__projects:hover,
+  img {
+    cursor: pointer;
+    color: #000;
+  }
 }

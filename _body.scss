@@ -37,9 +37,13 @@ body {
     "footer footer";
 }
 .button {
+  cursor: pointer;
   text-transform: uppercase;
   color: $dark-desaturated-blue;
   font-family: "Fraunces";
   border-bottom: 5px solid $yellow;
   width: 150px;
+}
+.button:hover {
+  color: $grayish-blue;
 }

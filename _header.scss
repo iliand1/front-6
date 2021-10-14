@@ -43,6 +43,7 @@ header {
   font-size: $body-size;
   align-items: center;
   .header__menu__contacts:hover {
+    cursor: pointer;
     color: #fff;
     background: $dark-desaturated-blue;
   }
@@ -61,18 +62,21 @@ header {
     align-items: center;
   }
   .header__menu__projects:hover {
+    cursor: pointer;
     color: #000;
   }
   .header__menu__projects {
     margin-left: 20px;
   }
   .header__menu__services:hover {
+    cursor: pointer;
     color: #000;
   }
   .header__menu__services {
     margin-left: 20px;
   }
   .header__menu__about:hover {
+    cursor: pointer;
     color: #000;
   }
 }
