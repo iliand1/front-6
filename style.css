@@ -35,8 +35,22 @@ body p {
   width: 150px;
 }
 
-.button:hover {
-  color: #a7abae;
+.button__red {
+  border-bottom: 5px solid #fe7867;
+}
+
+.button__yellow {
+  border-bottom: 5px solid #fad400;
+}
+
+.button__yellow:hover {
+  border-bottom: 5px solid orange;
+  color: black;
+}
+
+.button__red:hover {
+  border-bottom: 5px solid red;
+  color: black;
 }
 
 header {
@@ -321,7 +335,7 @@ footer .footer__menu__services:hover,
 footer .footer__menu__projects:hover,
 footer img {
   cursor: pointer;
-  color: #000;
+  color: #fff;
 }
 
 section.testimonials {

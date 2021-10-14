@@ -44,6 +44,18 @@ body {
   border-bottom: 5px solid $yellow;
   width: 150px;
 }
-.button:hover {
-  color: $grayish-blue;
+.button__red {
+  border-bottom: 5px solid $soft-red;
+}
+.button__yellow {
+  border-bottom: 5px solid $yellow;
+}
+.button__yellow:hover {
+  border-bottom: 5px solid orange;
+  color: black;
+}
+
+.button__red:hover {
+  border-bottom: 5px solid red;
+  color: black;
 }
