@@ -1,0 +1,45 @@
+$soft-red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$cyan-design-text: hsl(167, 40%, 24%);
+$dark-blue-photo-text: hsl(198, 62%, 26%);
+$dark-cyan-footer: hsl(168, 34%, 41%);
+$body-size: 18px;
+$dark-desaturated-blue: hsl(212, 27%, 19%);
+$dark-grayish-blue: hsl(213, 9%, 39%);
+$grayish-blue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+body {
+  line-height: 1.6;
+  h1 {
+    font-family: "Fraunces";
+    color: $dark-desaturated-blue;
+  }
+  p {
+    font-family: "Barlow";
+    color: $cyan-design-text;
+  }
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  // 7
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 700px 500px 500px 500px 800px 500px 300px;
+  grid-template-areas:
+    "header header"
+    "transform transform"
+    "stand stand"
+    "graphic photo"
+    "client client"
+    "gallery gallery"
+    "footer footer";
+}
+.button {
+  text-transform: uppercase;
+  color: $dark-desaturated-blue;
+  font-family: "Fraunces";
+  border-bottom: 5px solid $yellow;
+  width: 150px;
+}

@@ -1,0 +1,67 @@
+section.gallery {
+  grid-area: gallery;
+  display: flex;
+  width: 100vw;
+  img {
+    width: 25%;
+    height: auto;
+  }
+}
+section.transform {
+  h1 {
+    font-family: "Fraunces";
+  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: transform;
+  .section__text {
+    padding: 150px;
+  }
+  .section__img {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+section.stand-out {
+  h1 {
+    font-family: "Fraunces";
+  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: stand;
+  .section__text {
+    padding: 150px;
+  }
+}
+.section__img {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.graphic-design {
+  grid-area: graphic;
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+  text-align: center;
+  padding-inline: 170px;
+  justify-content: center;
+  display: grid;
+  align-items: end;
+  .section__text {
+    margin-bottom: 30px;
+  }
+}
+.photography {
+  grid-area: photo;
+  background-image: url("./images/desktop/image-photography.jpg");
+  text-align: center;
+  padding-inline: 170px;
+  justify-content: center;
+  display: grid;
+  align-items: end;
+  .section__text {
+    margin-bottom: 30px;
+  }
+}

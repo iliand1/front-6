@@ -1,0 +1,31 @@
+footer {
+  grid-area: footer;
+  background-color: $dark-cyan-footer;
+  color: $cyan-design-text;
+  font-family: "Barlow";
+  .footer-wrapper {
+    width: 100%;
+    .footer-wrapper__img {
+      margin-top: 50px;
+      filter: brightness(0) saturate(100%) invert(23%) sepia(6%) saturate(5009%)
+        hue-rotate(116deg) brightness(97%) contrast(76%);
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  .footer__menu {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .footer-wrapper__icons {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

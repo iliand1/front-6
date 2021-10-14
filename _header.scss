@@ -1,0 +1,78 @@
+header {
+  font-family: "Barlow";
+  color: #fff;
+  font-size: $body-size;
+  width: 100%;
+  display: grid;
+  grid-area: header;
+  background-image: url("/images/desktop/image-header.jpg");
+  background-position: center;
+  .header-wrapper {
+    margin-top: 15px;
+    display: flex;
+    height: 70px;
+    .header__menu {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      height: 100%;
+    }
+    img {
+      height: 40px;
+      width: 200px;
+      display: flex;
+      align-self: center;
+    }
+  }
+
+  h1 {
+    font-family: "Fraunces";
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    display: flex;
+    justify-self: center;
+    color: #fff;
+  }
+  img {
+    margin-left: 20px;
+    display: flex;
+    justify-self: center;
+  }
+}
+.header__menu {
+  font-size: $body-size;
+  align-items: center;
+  .header__menu__contacts:hover {
+    color: #fff;
+    background: $dark-desaturated-blue;
+  }
+  .header__menu__contacts {
+    text-transform: uppercase;
+    font-family: "Fraunces";
+    width: 120px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__menu__projects:hover {
+    color: #000;
+  }
+  .header__menu__projects {
+    margin-left: 20px;
+  }
+  .header__menu__services:hover {
+    color: #000;
+  }
+  .header__menu__services {
+    margin-left: 20px;
+  }
+  .header__menu__about:hover {
+    color: #000;
+  }
+}
