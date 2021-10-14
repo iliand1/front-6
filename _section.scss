@@ -43,7 +43,9 @@ section.stand-out {
 }
 .graphic-design {
   grid-area: graphic;
-  background-image: url("./images/desktop/image-graphic-design.jpg");
+  background-image: url("./images/desktop/desktop-cherry-fruit-hd-wallpaper-download.jpg");
+  background-position: center;
+  width: auto;
   text-align: center;
   padding-inline: 170px;
   justify-content: center;
@@ -51,12 +53,17 @@ section.stand-out {
   align-items: end;
   .section__text {
     margin-bottom: 30px;
+    p,
+    h1 {
+      color: #fff;
+    }
   }
 }
 .photography {
   grid-area: photo;
   background-image: url("./images/desktop/image-photography.jpg");
   text-align: center;
+  width: auto;
   padding-inline: 170px;
   justify-content: center;
   display: grid;
