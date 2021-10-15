@@ -20,7 +20,7 @@ section.transform {
   .section__img {
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
     }
   }
 }
@@ -28,6 +28,7 @@ section.stand-out {
   h1 {
     font-family: "Fraunces";
   }
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-area: stand;
@@ -38,7 +39,7 @@ section.stand-out {
 .section__img {
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 .graphic-design {
@@ -62,6 +63,7 @@ section.stand-out {
 .photography {
   grid-area: photo;
   background-image: url("./images/desktop/image-photography.jpg");
+  background-position: center;
   text-align: center;
   width: auto;
   padding-inline: 170px;

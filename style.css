@@ -135,7 +135,7 @@ header img {
   width: 120px;
   height: 50px;
   margin-left: 20px;
-  margin-right: 10px;
+  margin-right: 40px;
   color: black;
   background-color: #fff;
   border-radius: 20px;
@@ -210,10 +210,11 @@ section.transform .section__text {
 
 section.transform .section__img img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 section.stand-out {
+  overflow: hidden;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -234,7 +235,7 @@ section.stand-out .section__text {
 
 .section__img img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .graphic-design {
@@ -270,6 +271,7 @@ section.stand-out .section__text {
   -ms-grid-column: 2;
   grid-area: photo;
   background-image: url("./images/desktop/image-photography.jpg");
+  background-position: center;
   text-align: center;
   width: auto;
   padding-inline: 170px;
